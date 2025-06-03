@@ -1,48 +1,73 @@
-<h1>Hi, I'm Isaac Wadawasina! <br/><a href="https://github.com/joshmadakor1">Programmer</a>, <a href="https://(https://www.linkedin.com/in/isaaac-wadawasina-77859a364/)/">Cybersecurity Professional</a>, <a href="https://www.youtube.com/c/joshmadakor">YouTuber</a></h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isaac Wadawasina | Ethical Hacker Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gray-800 shadow-md p-6 text-center">
+    <h1 class="text-3xl font-bold">Isaac Wadawasina</h1>
+    <p class="text-gray-400">Ethical Hacker | Cybersecurity Enthusiast</p>
+  </header>
 
-<h2>👨‍💻 Software Development Projects:</h2>
+  <main class="max-w-4xl mx-auto p-6">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+      <p class="text-gray-300">I am a passionate ethical hacker and cybersecurity enthusiast focused on web application and network security. I love learning by solving real-world vulnerabilities on platforms like TryHackMe, HackTheBox, and VulnHub. This portfolio showcases my writeups, tools, and practical skills.</p>
+    </section>
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
-- <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Skills & Tools</h2>
+      <ul class="list-disc list-inside text-gray-300">
+        <li>Penetration Testing (Web & Network)</li>
+        <li>Tools: Nmap, Burp Suite, OWASP ZAP, Wireshark, Hydra</li>
+        <li>Languages: Python, Bash</li>
+        <li>Platforms: TryHackMe, HackTheBox, DVWA</li>
+      </ul>
+    </section>
 
-<h2>📺 Popular YouTube Videos</h2>
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Projects & Writeups</h2>
+      <div class="space-y-4">
+        <div class="bg-gray-800 p-4 rounded-lg shadow">
+          <h3 class="text-xl font-semibold">Mr. Robot VulnHub Walkthrough</h3>
+          <p class="text-gray-400">Enumeration, privilege escalation, and web exploitation to root the machine.</p>
+          <a href="#" class="text-blue-400 underline">Read Writeup</a>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">
+          <h3 class="text-xl font-semibold">SQL Injection on DVWA</h3>
+          <p class="text-gray-400">Exploiting vulnerable SQL queries to bypass login and extract data.</p>
+          <a href="#" class="text-blue-400 underline">Read Writeup</a>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">
+          <h3 class="text-xl font-semibold">Python Port Scanner</h3>
+          <p class="text-gray-400">A simple script that scans open ports on a target host.</p>
+          <a href="#" class="text-blue-400 underline">View Code</a>
+        </div>
+      </div>
+    </section>
 
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
-- [A Day in the Life of a Cybersecurity Anayst](https://www.youtube.com/watch?v=uHy3oM7NnoU)
-- [How to Create a KeyLogger (C#)](https://www.youtube.com/watch?v=N-L9hklSlNk)
-- [Ransomware Demonstration (C#)](https://www.youtube.com/watch?v=OfvdQeh79s0)
-- [Is WGU Legit?](https://www.youtube.com/watch?v=E2MwRWxDBkA)
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Certifications & Learning</h2>
+      <ul class="list-disc list-inside text-gray-300">
+        <li>TryHackMe: Pre Security & Jr Penetration Tester</li>
+        <li>TCM Security: Practical Ethical Hacking (in progress)</li>
+        <li>HackTheBox: Starting Point Labs</li>
+      </ul>
+    </section>
 
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Contact</h2>
+      <p class="text-gray-300">Email: <a href="mailto:isaac@example.com" class="text-blue-400 underline">isaac@example.com</a></p>
+      <p class="text-gray-300">GitHub: <a href="https://github.com/yourgithub" class="text-blue-400 underline">github.com/yourgithub</a></p>
+      <p class="text-gray-300">LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" class="text-blue-400 underline">linkedin.com/in/yourlinkedin</a></p>
+    </section>
+  </main>
 
-[twitter]: 
-[youtube]: 
-[instagram]: 
-[linkedin]: 
-
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <footer class="bg-gray-800 p-4 text-center text-gray-400">
+    &copy; 2025 Isaac Wadawasina. All rights reserved.
+  </footer>
+</body>
+</html>
